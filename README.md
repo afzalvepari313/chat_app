@@ -12,6 +12,8 @@ Learn to build a real-time messaging Chat App using React, Socket.io, Node.js, R
 - [Setup](#-setup)
   - [Server Environment Variables](#-server-environment-variables)
   - [Client Environment Variables](#-client-environment-variables)
+  - [Backend Setup](#-backend-setup)
+  - [Frontend Setup](#-frontend-setup)
 - [Usage](#-usage)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -49,4 +51,24 @@ Create a `.env` file in the `server` directory and add your environment variable
 ```env
 FRONTEND_URL=<Frontend URL>
 MONGODB_URI=<MongoDB URI>
-JWT_SECRET_KEY=<JWT Secret Key>
+JWT_SECRET_KEY=<JWT Secret Key>  
+
+### 🔧 Client Environment Variables
+Create a .env file in the client directory and add your environment variables:
+🖥 Usage
+After setting up both the backend and frontend, you can access the application in your browser at http://localhost:3000.
+
+Register as a new user or log in if you already have an account.
+Create your profile and upload your avatar.
+Start a chat with other users and enjoy real-time messaging.
+🤝 Contributing
+We welcome contributions from the community! If you have any ideas, suggestions, or issues, please feel free to submit a pull request or open an issue.
+
+Fork the repository
+Create a new branch (git checkout -b feature/your-feature-name)
+Make your changes
+Commit your changes (git commit -m 'Add some feature')
+Push to the branch (git push origin feature/your-feature-name)
+Open a pull request
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
